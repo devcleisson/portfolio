@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Cleisson - Desenvolvedor Full Stack</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- MENU -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Cleisson<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+
+    <!-- bolinhas flutuando no fundo, só decoração -->
+    <div class="bolha bolha1"></div>
+    <div class="bolha bolha2"></div>
+    <div class="bolha bolha3"></div>
+
+    <div class="hero-content">
+      <p class="hero-hello fade-in">Olá, eu sou</p>
+      <h1 class="hero-name fade-in">José Cleisson</h1>
+      <h2 class="hero-role fade-in">
+        <span id="textoAnimado"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc fade-in">
+        Foco em React, TypeScript e Node.js.
+      </p>
+      <div class="hero-buttons fade-in">
+        <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+        <a href="#contato" class="btn btn-outline">Fale comigo</a>
+      </div>
+      <div class="hero-social fade-in">
+        <a href="https://github.com/devcleisson" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/jos%C3%A9-cleisson-9576b622b/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/jcleisson_" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+
+    <a href="#sobre" class="scroll-down">↓</a>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="sobre">
+    <h2 class="section-title reveal">Sobre mim</h2>
+    <div class="sobre-content">
+      <p class="reveal">
+        Sou desenvolvedor Full Stack com foco em <strong>ReactJS</strong>, <strong>TypeScript</strong> e
+        <strong>Node</strong>. Já desenvolvi e vendi um dashboard de controle financeiro para um cliente,
+        com gestão de receitas, despesas, fluxo de caixa e relatórios gráficos em tempo real. Esse projeto
+        me deu experiência prática em todo o ciclo: do levantamento de requisitos até a entrega em produção.
+      </p>
+      <p class="reveal">
+        Tenho facilidade para aprender novas tecnologias rapidamente e gosto de resolver problemas reais
+        através do código. Além de React, TypeScript e Node, também tenho experiência com JavaScript,
+        Python, Angular, SQL, API e Bootstrap.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="projetos">
+    <h2 class="section-title reveal">Projetos</h2>
+    <div class="projetos-grid">
+
+      <div class="card reveal">
+        <div class="card-top">
+          <h3>Task Log</h3>
+          <span class="card-tag">React</span>
+        </div>
+        <p>
+          Aplicação de lista de tarefas (to-do list) construída em React, com visual
+          inspirado em um log de commits de desenvolvedor. Tem filtro por pendentes/concluídas
+          e contador de tarefas.
+        </p>
+        <div class="card-tech">
+          <span>React</span>
+          <span>Tailwind CSS</span>
+          <span>lucide-react</span>
+        </div>
+        <a href="https://github.com/devcleisson/task-log" target="_blank" rel="noopener" class="card-link">Ver no GitHub →</a>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-top">
+          <h3>Auth System (tela-login)</h3>
+          <span class="card-tag">Full Stack</span>
+        </div>
+        <p>
+          Sistema de autenticação completo (front-end + back-end), com cadastro, login,
+          senhas criptografadas com bcrypt e sessão autenticada via token JWT.
+        </p>
+        <div class="card-tech">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>JWT</span>
+        </div>
+        <a href="https://github.com/devcleisson/tela-login" target="_blank" rel="noopener" class="card-link">Ver no GitHub →</a>
+      </div>
+
+    </div>
+
+    <p class="mais-projetos reveal">
+      Mais projetos no meu <a href="https://github.com/devcleisson" target="_blank" rel="noopener">GitHub</a>.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <h2 class="section-title reveal">Skills</h2>
+    <div class="skills-grid">
+      <span class="skill reveal">JavaScript</span>
+      <span class="skill reveal">TypeScript</span>
+      <span class="skill reveal">React</span>
+      <span class="skill reveal">Node.js</span>
+      <span class="skill reveal">Angular</span>
+      <span class="skill reveal">Python</span>
+      <span class="skill reveal">SQL</span>
+      <span class="skill reveal">API REST</span>
+      <span class="skill reveal">Bootstrap</span>
+      <span class="skill reveal">Tailwind CSS</span>
+      <span class="skill reveal">Git & GitHub</span>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contato">
+    <h2 class="section-title reveal">Contato</h2>
+    <p class="contato-desc reveal">Bora trocar uma ideia? Me chama por aqui:</p>
+    <div class="contato-lista">
+      <a href="mailto:pessoalcleisson@gmail.com" class="contato-item reveal">
+        📧 pessoalcleisson@gmail.com
+      </a>
+      <a href="https://wa.me/5579998897433" target="_blank" rel="noopener" class="contato-item reveal">
+        📱 (79) 9 9889-7433
+      </a>
+      <a href="https://www.linkedin.com/in/jos%C3%A9-cleisson-9576b622b/" target="_blank" rel="noopener" class="contato-item reveal">
+        💼 LinkedIn
+      </a>
+      <a href="https://github.com/devcleisson" target="_blank" rel="noopener" class="contato-item reveal">
+        💻 GitHub
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Feito por José Cleisson Barreto de Oliveira &copy; <span id="ano"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
